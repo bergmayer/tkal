@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+._*
+
+# Swift build artifacts
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+*.xcodeproj
+
+# Compiled binaries
+/tkal
+*.out
+
+# Lock files (not needed for applications)
+Package.resolved
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Scripts (demo/test only)
+demo_*.sh
+test_*.sh

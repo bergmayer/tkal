@@ -1,0 +1,5 @@
+module NCursesBridge {
+    header "ncurses_bridge.h"
+    link "ncurses"
+    export *
+}
